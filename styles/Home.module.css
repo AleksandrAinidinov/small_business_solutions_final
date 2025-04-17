@@ -1,3 +1,89 @@
+/* Aleksandr Ainidinov
+8905450
+2025-04-17 */
+
+/* Adding new Order Form styles */
+.form {
+  max-width: 350px;
+  padding: 20px;
+  margin: 20px;
+  border: #504f4f 2px solid;
+  border-radius: 15px;
+}
+
+.formHeader {
+  font-size: 40px;
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.form input {
+  width: 80%;
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.submitButton {
+  background-color: #a7d59d;
+  width: 40%;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 10px;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  border: #504f4f 2px solid;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+
+/* All Orders styles */
+.allOrders {
+  max-width: 1000px;
+  margin: 20px;
+  padding: 1rem;
+  background-color: rgb(233, 231, 231);
+  border-radius: 15px;
+}
+
+.table {
+  text-align: left;
+  width: 100%;
+  border-spacing: 0.5rem;
+}
+
+.table thead {
+  background-color: #d6d4d4;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.table tbody tr {
+  background-color: #f9f9f9;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.table tbody tr:hover {
+  background-color: #edecec;
+}
+
+.table th {
+  padding: 0.75rem;
+  font-size: 18px;
+  border: 2.5px solid #a5a4a4;
+}
+
+.table td {
+  padding: 0.5rem;
+  font-size: 16px;
+  border: 2px solid #a5a4a4;
+}
+
+
+
+
+
 .page {
   --gray-rgb: 0, 0, 0;
   --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
