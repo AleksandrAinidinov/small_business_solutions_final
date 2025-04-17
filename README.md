@@ -3,7 +3,7 @@
 <!-- 2025-04-17 -->
 
 
-# Small Business Solution Final
+# Small Business Solutions Final
 
 ## Developer
 
@@ -27,6 +27,7 @@ Customer Orders Management System application using Next.js. This version of the
    git clone https://github.com/AleksandrAinidinov/small_business_solutions_final.git
    cd my-app
    ```
+
 2. **Set up Neon.Tech Database**:
    Go to [Neon.Tech](https://neon.tech/) website and click 'New Project'. Then click 'Connect' and you will see the connection string for your database you just created, you need to copy it and create a new file called:
    ```bash
@@ -44,13 +45,13 @@ Customer Orders Management System application using Next.js. This version of the
    npm install pg
    ```
 
-3. **Start the application**:
-   - Launch the application locally:
+4. **Start the application**:
+   Launch the application locally:
    ```bash
    npm run dev
    ```
 
-4. **.env File creation**:
+5. **My .env File**:
    Just in case, here's my connection string:
 
    DATABASE_URL=postgresql://neondb_owner:npg_eIRHSktsl7Q1@ep-odd-dust-a4vesg5c-pooler.us-east-1.aws.neon.tech/neondb?sslmode=require

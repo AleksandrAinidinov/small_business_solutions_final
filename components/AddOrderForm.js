@@ -40,7 +40,7 @@ export default function AddOrderForm() {
             alert("Quantity field cannot be empty!");
             return;
         }
-        if (formData.quantity < 0){
+        if (formData.quantity <= 0){
             alert("Quantity field has to be more than '0'!");
             return;
         }
@@ -50,7 +50,7 @@ export default function AddOrderForm() {
             alert("Price field cannot be empty!");
             return;
         }
-        if (formData.price < 0){
+        if (formData.price <= 0){
             alert("Price field has to be more than '0'!");
             return;
         }
