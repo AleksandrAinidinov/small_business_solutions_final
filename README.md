@@ -16,7 +16,7 @@
 
 ---
 
-Basic Customer Orders Management System application using Next.js. This version of the system allows adding new orders and viewing all the previous orders on one page.
+Customer Orders Management System application using Next.js. This version of the system allows adding new orders and viewing all the previous orders on one page.
 
 ---
 
@@ -28,7 +28,7 @@ Basic Customer Orders Management System application using Next.js. This version 
    cd my-app
    ```
 2. **Set up Neon.Tech Database**:
-   Go to neon.tech website and click 'New Project'. Then click 'Connect' and you will see the connection string, you need to copy it and create a new file called:
+   Go to [Neon.Tech](https://neon.tech/) website and click 'New Project'. Then click 'Connect' and you will see the connection string for your database you just created, you need to copy it and create a new file called:
    ```bash
    .env.local
    ```
@@ -38,14 +38,14 @@ Basic Customer Orders Management System application using Next.js. This version 
    ```
 
 3. **Install dependencies**:
-   Ensure you have Next.js and pg library installed, then run:
+   Ensure you have Next.js and pg library installed, to do it run:
    ```bash
    npm install
    npm install pg
    ```
 
 3. **Start the application**:
-   Launch the application locally:
+   - Launch the application locally:
    ```bash
    npm run dev
    ```
